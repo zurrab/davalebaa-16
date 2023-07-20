@@ -1,0 +1,212 @@
+body {
+    background-color: #F8FAFB;
+}
+
+@font-face {
+    font-family: "product sans";
+    src: url(./fonts/Product\ Sans\ Regular.ttf);
+}
+
+* {
+    font-family: "product sans";
+}
+.card-text{
+    margin-bottom: 5px;
+}
+
+.navbar {
+    height: 102px;
+    padding-left: 51px;
+    padding-right: 69px;
+}
+
+.search {
+    margin-left: 100px;
+    align-items: center;
+}
+
+.search input {
+    background-color: transparent;
+    border: 0;
+    height: 50px;
+    width: 300px;
+    outline: none;
+}
+
+.side-navbar {
+    max-width: 270px;
+    width: 100%;
+    height: 100vh;
+}
+
+.profile {
+    padding-left: 35px;
+    padding-right: 22px;
+    margin-top: 24px;
+}
+
+.profile h4 {
+    font-family: "product sans";
+    font-size: 18px;
+    color: #000000;
+}
+
+.profile h5 {
+    font-family: "product sans";
+    font-size: 13px;
+    color: #A4A4A4;
+}
+
+.profile .logo {
+    margin-right: 12px;
+}
+
+.navigation {
+    margin-top: 36px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navigation .navigation-link {
+    width: 100%;
+    height: 62px;
+    list-style: none;
+    column-gap: 20px;
+}
+
+.navigation .navigation-link a {
+    color: #0C0C0D;
+    font-size: 19px;
+    font-family: "product sans";
+    text-decoration: none;
+}
+
+.navigation .navigation-link .marked {
+    display: none;
+    background-color: #5932EA;
+    width: 6px;
+    height: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.navigation .navigation-link svg {
+    margin-left: 40px;
+}
+
+.navigation .navigation-link.active {
+    background-color: #F8F8F8;
+}
+
+.navigation .navigation-link.active .marked {
+    display: block;
+}
+
+.content {
+    padding: 41px;
+    height: 100vh;
+}
+
+.card-body h5 {
+    color: #343434;
+
+    font-size: 16px;
+
+
+}
+
+.card-body p {
+    font-size: 28px;
+}
+
+.green-cont {
+    background-color: #23C10A26;
+    width: 64px;
+    height: 23px;
+    border-radius: 50px;
+    margin-left: 15px
+}
+
+.percent {
+    color: #0B8A00;
+    font-family: Product Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.green-cont svg {
+    margin-top: 3px;
+}
+
+.red-cont {
+    width: 64px;
+    height: 23px;
+    border-radius: 50px;
+    background-color: #C10A0A26;
+    margin-left: 10px;
+}
+
+
+.percent-1 {
+    color: #C71026;
+    font-family: Product Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+
+.statistic {
+    background-color: #ffffff;
+    height: 362px;
+    margin-top: 24px;
+    padding: 30px;
+    border-radius: 6px;
+}
+
+.grey-container {
+    border-radius: 12px;
+    background-color: #F6F6F6;
+    margin-left: 35px;
+}
+
+.grey-container h6 {
+    color: #1A2B88;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.14px;
+}
+.first{
+    color: #949494;
+    font-family: "Product Sans";
+    font-size: 14.495px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.145px;
+}
+
+.plus{
+    color: red;
+}
+thead{
+    border-bottom: 1px solid;
+    border-color: #EFEFEF;
+    width: 630px;
+    color: #949494; 
+}
+td{
+   color: #000000;
+}
+@media only screen and (max-width: 768px) {
+    .card {
+        margin-left: 0px;
+    }
+}
